@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--I set the title to reflect what I want to show on the tab -->
+
+    <title>Home Page</title>
+
+</head>
+
+<!--This is my home page. I have selected a backgroung color using the style tag and 
+the hex color.-->
+
+<body style="background-color:#B6D0E2;">
+
+    <!--I have used <div> here to create a section in my website for my "Menu". I used
+    the break tag so that my links are stacked on top of one another instead of
+    one next to another on the same line-->
+
+    <div>
+        <a href="index.html">Home</a> <br>
+
+        <a href="pricing.html">Pricing</a> <br>
+
+        <a href="aboutme.html">About Us</a>
+    </div>
+
+    <!--Here I have the main text on my page. I used the center tag to center main
+    pieces of my webpage  -->
+
+    <center>
+
+        <!--This is my header-->
+
+        <h1>Asphalt Maintenance</h1>
+
+        <!--I used a paragraph here to welcome all my users to the site. I did this 
+        so that it would start on a new line and give a margin before and after the 
+        text.-->
+
+        <p>We’re glad you’re here! We specialize in top-tier asphalt repair and maintenance 
+            services to keep your surfaces looking and performing their best. Whether you 
+            need cracksealing, asphalt patching, sealcoating, or striping, our experienced 
+            team is ready to provide solutions that will enhance the durability and safety 
+            of your asphalt. Browse through our services to see how we can help protect your pavement, and 
+            feel free to reach out for a free estimate. We’re committed to delivering quality 
+            work with exceptional customer service, and we look forward to partnering with you 
+            for all your asphalt repair needs.
+        </p>
+
+        <!--Here i sourced in my image and used the style tag to determine the 
+        picture size-->
+
+        <img src="sealandstripe.jpg" alt="Sealcoting and Striping" style="width:1000px;height:437px;"/>
+        
+        <!--here is a different style of header-->
+
+        <h2>Connect with us for a Quote</h2>
+        
+        <!--this is my form which i have set up to accept customer quotes. They can 
+        submit their first and last name with the square feet of the area they want 
+        asphalt maintenance. Then they will select the radio buttonf or the 
+        corresponding service that they are needing-->
+
+        <form>
+            <input type="text" name="firstName" placeholder="First Name"> <br>
+            <input type="text" name="lastName" placeholder="Last Name"> <br>
+            <input type="text" name="sqFoot" placeholder="Area Square Feet"> <br><br>
+            Service Choice: <br>
+            <input type="radio" name="service" value="Crackseal"> Crackseal <br>
+            <input type="radio" name="service" value="Asphalt Patch"> Asphalt Patch <br>
+            <input type="radio" name="service" value="Sealcoat"> Sealcoat <br>
+            <input type="radio" name="service" value="Asphalt Repair"> Asphalt Repair <br>
+            <input type="radio" name="service" value="Striping"> Striping <br>
+            <input type="submit" vaule="Submit">
+        </form>
+
+    </center>
+
+</body>
+</html>
